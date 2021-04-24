@@ -53,3 +53,29 @@ body    {
     background-color: #bf9b89;
     transition: 0.2s ease-out;
 }
+
+.drawing-photos {
+    width: 20%;
+    float: right;
+    background-color: #ecd1b9;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+
+.square-pic {
+    margin-top:2em;
+    margin-left: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displaynone {
+    display: none;
+}
+
+.closebtn {
+    display: none;
+}
